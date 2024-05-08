@@ -1,0 +1,32 @@
+.parent__container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b262c;
+}
+.game__container {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  align-content: center;
+  pointer-events: painted;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 20%;
+}
+.odd__color {
+  color: blue;
+  font-size: 34px;
+}
+.even__color {
+  color: red;
+  font-size: 34px;
+}
